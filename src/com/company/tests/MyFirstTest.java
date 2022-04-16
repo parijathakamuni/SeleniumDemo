@@ -29,7 +29,7 @@ public class MyFirstTest {
 		driver.findElement(By.xpath("//*[@id=\'txtPassword\']")).sendKeys("ajsdhjash");
 		driver.findElement(By.xpath("//*[@id=\'btnLogin\']")).click();*/
 		
-		driver.findElement(By.cssSelector("input.form-control")).sendKeys("admin");
+		driver.findElement(By.cssSelector("input.form-control")).sendKeys("username");
 		driver.findElement(By.cssSelector("input#txtPassword")).sendKeys("ksjdhlkjsdhf");
 		driver.findElement(By.cssSelector("input.btn.btn-success")).click();
 		
